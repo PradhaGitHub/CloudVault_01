@@ -1,0 +1,41 @@
+# Ignore Maven build outputs
+target/
+
+# Keep Maven wrapper JAR
+!.mvn/wrapper/maven-wrapper.jar
+
+# Keep build outputs for source directories
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Spring Tools Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+/!**/src/main/**/build/
+/!**/src/test/**/build/
+
+# Visual Studio Code
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
